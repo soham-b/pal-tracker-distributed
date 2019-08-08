@@ -8,5 +8,6 @@ applications:
   env:
     REGISTRATION_SERVER_ENDPOINT: https://registration-pal-sachin-soham.apps.chicken.pal.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    HELLO_MESSAGE: hello
   services:
   - tracker-backlog-database
